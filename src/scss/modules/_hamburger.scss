@@ -1,0 +1,13 @@
+.hamburger {
+    position: absolute;
+    left: 25px;
+    top: 23px;
+    display: none;
+    span {
+        display: block;
+        background-color: #656565;
+        width: 30px;
+        height: 3px;
+        margin-bottom: 5px;
+    }
+}

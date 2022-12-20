@@ -1,0 +1,17 @@
+.arrow {
+    display: inline-block;
+    margin: 0 5px;
+    transform: translateY(1px);
+    span {
+        background-color: rgba(101,101,101,0.9);
+        display: block;
+        width: 7px;
+        height: 2px;
+        &:nth-child(1) {
+            transform: translateY(-4px) rotateZ(45deg)
+        }
+        &:nth-child(2) {
+            transform: translateY(-2px) rotateZ(-45deg)
+        }
+    }
+}
